@@ -6,11 +6,11 @@
 ```
 Server should start in a few seconds and say something like:
 `2020/08/14 16:51:51 Starting server on Port 9000`
-After it says that, you make make a request to the server. See CURL request example below:
+After it says that, you may make a request to the server. See CURL request example below:
 
 ## cURL Request Example
 `curl http://localhost:9000/autocomplete?term=th`
-API responses are json objects. The objects include an amount of words matched and words in an array. See Results for various terms below.
+API response is a json object. The data includes an amount of words matched and words in an array. See Results for various terms below.
 
 ## Results For Various Query Params
  ### th
